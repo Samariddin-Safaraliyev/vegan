@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#header-vegan .about-vegan .navbar .nav .list, #header-vegan .about-vegan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-vegan {
+  padding: 10px 0;
+}
+#header-vegan .about-vegan {
+  flex-wrap: wrap;
+}
+#header-vegan .about-vegan .header-logo .image-logo {
+  width: 200px;
+}
+#header-vegan .about-vegan .navbar .nav .list {
+  gap: 0 30px;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+#header-vegan .about-vegan .navbar .nav .list li:hover {
+  text-decoration: underline;
+}
+@media (max-width: 480px) {
+  #header-vegan .about-vegan .navbar {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #header-vegan .about-vegan {
+    justify-content: center;
+  }
+}
+
+#vegan-hero .hero {
+  margin: 50px 0;
+  text-align: center;
+}
+#vegan-hero .hero .title {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 800;
+}
+#vegan-hero .hero .text {
+  font-weight: 600;
+  word-spacing: 2px;
+  font-family: serif;
+  margin: 30px 0;
+}
+#vegan-hero .hero .hero-hr {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#vegan-images .title {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+#vegan-images .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#vegan-images .images .image-vegan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#vegan-images .images .image-vegan .image {
+  position: relative;
+  width: 400px;
+}
+#vegan-images .images .image-vegan .image .vgn {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+#vegan-images .images .image-vegan .image .content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  transition: 0.3s all ease;
+}
+#vegan-images .images .image-vegan .image .content:hover {
+  opacity: 1;
+}
+@media (max-width: 480px) {
+  #vegan-images .images .image-vegan {
+    width: 100%;
+  }
+}
+
+#footer-vegan {
+  margin: 30px 0;
+}
+#footer-vegan .text {
+  text-align: center;
+}
+#footer-vegan .text .lorem:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */

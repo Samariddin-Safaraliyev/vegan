@@ -1,0 +1,11 @@
+#footer-vegan{
+    margin: 30px 0;
+    .text{
+        text-align: center;
+        .lorem{
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

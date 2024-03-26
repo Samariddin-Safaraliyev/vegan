@@ -1,0 +1,22 @@
+#vegan-hero{
+    .hero{
+        margin: 50px 0;
+        text-align: center;
+        .title{
+            font-size: 2rem;
+            font-family: sans-serif;
+            font-weight: 800;
+        }
+        .text{
+            font-weight: 600;
+            word-spacing: 2px;
+            font-family: serif;
+            margin: 30px 0;
+        }
+        .hero-hr{
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+    }
+}
